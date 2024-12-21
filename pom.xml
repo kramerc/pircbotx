@@ -346,9 +346,15 @@
 			<url>file://${project.build.directory}/site-deploy-generated</url>
 		</site>
 		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/kramerc/pircbotx</url>
 		</snapshotRepository>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/kramerc/pircbotx</url>
+		</repository>
 	</distributionManagement>
 
 	<profiles>
